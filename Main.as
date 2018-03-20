@@ -30,6 +30,8 @@
 				video6_btn.addEventListener(MouseEvent.CLICK, video6);
 				video7_btn.addEventListener(MouseEvent.CLICK, video7);
 				video8_btn.addEventListener(MouseEvent.CLICK, video8);
+				video9_btn.addEventListener(MouseEvent.CLICK, video9);
+				video10_btn.addEventListener(MouseEvent.CLICK, video10);
 			}
 
 			function regresar(event: MouseEvent): void {
@@ -46,6 +48,7 @@
 				video7_btn.addEventListener(MouseEvent.CLICK, video7);
 				video8_btn.addEventListener(MouseEvent.CLICK, video8);
 				video9_btn.addEventListener(MouseEvent.CLICK, video9);
+				video10_btn.addEventListener(MouseEvent.CLICK, video10);
 			}
 
 			function introduccion1(event: MouseEvent): void {
@@ -136,9 +139,5 @@
 				addChild(v);
 			}
 		}
-
-
-
 	}
-
 }
